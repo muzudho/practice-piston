@@ -10,12 +10,11 @@ destination = 'C:/Users/むずでょ/Documents/GitHub/practice-piston'
 def go():
     print('Trace   | Copy.')
     copy_dir('/@no-deploy')
-    copy_dir('/getting-started', ignore=shutil.ignore_patterns('.git', 'target'))
-    copy_dir('/snake-game',
-             ignore=shutil.ignore_patterns('.git', 'target'))
+    copy_dir('/deploy', ignore=shutil.ignore_patterns('.git', 'target'))
     copy_file('/.gitignore')
     copy_file('/copy-dir-to-git.py')
     copy_file('/LICENSE')
+    copy_file('/README.md')
     print('Trace   | Finished.')
 
 
