@@ -89,3 +89,11 @@ cd C:/Users/むずでょ/source/repos/practice-piston/deploy
 cargo new --bin gilrs
 cd gilrs
 ```
+
+## 2020-04-16(thu)
+
+ゲームエンジン piston でゲームを作らず、ドット絵エディターを作ればいいのではないか☆（＾～＾）？
+
+* [How to save a PNG image in Rust?](https://stackoverflow.com/questions/38886081/how-to-save-a-png-image-in-rust)
+* [Writing a Raytracer in Rust: part 1 - the Piston maze](https://canmom.github.io/programming/graphics/raytracer/rust-raytracer-part-1)
+* [Tecture](https://docs.piston.rs/piston_window/texture/index.html)

@@ -27,5 +27,5 @@ fn main() {
         }
     }
 
-    println!("Trace   | Finished.");
+    // println!("Trace   | Finished.");
 }
